@@ -23,9 +23,16 @@ justify-content: space-between;
 }
 
 nav div {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 23px;
+margin: 8px 30px 8px 30px;
   color: #FFFFFF;
+  cursor: pointer;
+  
+}
+
+nav div:hover {
+  color: black;
+
 }
 
 nav section {
@@ -44,6 +51,11 @@ main {
 
 footer {
   background-color: #63d629;
+  cursor: pointer;
+}
+
+footer:hover {
+  color: white;
 }
 
 .flex-ctr {
