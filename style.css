@@ -64,7 +64,7 @@ footer:hover {
   align-items: center;
 }
 
-nav, footer {
+nav, footer, a {
   grid-column: span 2;
 }
   
