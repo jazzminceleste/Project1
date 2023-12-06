@@ -95,6 +95,22 @@ nav, footer, a {
   display: flex;
   align-items: center;
 }
+
+.threemenuphotos {
+  margin: 10px;
+  width: 320px;
+  height: 400px;
+}
+
+.threemenuphotos:hover {
+  opacity: .5;
+}
+
+#threephotos {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
   
 
   
