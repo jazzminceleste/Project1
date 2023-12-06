@@ -2,19 +2,11 @@ body {
   margin: 0;
   height: 100vh;
     display: grid;
-    grid-template-columns: 300px 4fr;
+    grid-template-columns: 600px 4fr;
     grid-template-rows: 50px 1fr 50px;
     gap: 5px;
     font-family: cursive;
     font-size: x-large
-}
-
-img {
-  display: flex;
-  width: 150px;
-  height: 200px;
-  opacity: 1;
-  flex-direction: column;
 }
 
 section {
@@ -47,18 +39,24 @@ nav section {
   display: flex;
 }
 
+img {
+  display: flex;
+  width: 280px;
+  height: 425px;
+  opacity: 1;
+}
+
 aside {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-  background-color: rgb(230, 248, 222)
-
+  justify-content: space-around;
+  background-color: rgb(230, 248, 222);
 }
 
 main {
-  background-color: #63d629;
-  opacity: .15
+  background-color:rgb(230, 248, 222);
+  display: flex;
 }
 
 footer {
