@@ -1,13 +1,13 @@
 body {
   margin: 0;
   height: 100vh;
-    display: grid;
-    grid-template-columns: 600px 4fr;
-    grid-template-rows: 50px 1fr 50px;
-    gap: 5px;
-    font-family: cursive;
-    font-size: x-large
-}
+  display: grid;
+  grid-template-columns: 600px 4fr;
+  grid-template-rows: 50px 1fr 50px;
+  gap: 5px;
+  font-family: cursive;
+  font-size: x-large
+} 
 
 section {
   display: flex;
@@ -15,8 +15,8 @@ section {
 
 nav {
   display: flex;
-flex-direction: row;
-justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 
   height: 50PX;
   background-color: #63d629;
@@ -24,10 +24,10 @@ justify-content: space-between;
 
 nav div {
   font-size: 23px;
-margin: 8px 30px 8px 30px;
+  margin: 8px 30px 8px 30px;
   color: #FFFFFF;
   cursor: pointer;
-  
+
 }
 
 button {
@@ -73,8 +73,8 @@ aside {
 }
 
 .asideimages:hover {
-    opacity: .5;
-  }
+  opacity: .5;
+}
 
 #imgmain {
   border-radius: 90%;
@@ -84,7 +84,7 @@ aside {
 }
 
 main {
-  background-color:rgb(230, 248, 222);
+  background-color: rgb(230, 248, 222);
   display: flex;
   flex-direction: column;
 }
@@ -109,13 +109,16 @@ a:hover {
   align-items: center;
 }
 
-nav, footer, a {
+nav,
+footer,
+a {
   grid-column: span 2;
 }
 
 #logoandtext {
   display: flex;
   align-items: center;
+  font-size: 60px;
 }
 
 .threemenuphotos {
@@ -134,7 +137,7 @@ nav, footer, a {
   justify-content: center;
   margin-top: 100px;
 }
-  
+
 .contactus {
   display: flex;
   justify-content: center;
@@ -145,5 +148,3 @@ nav, footer, a {
 p {
   text-align: center;
 }
-  
-  
