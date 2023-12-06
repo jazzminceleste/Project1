@@ -135,6 +135,15 @@ nav, footer, a {
   margin-top: 100px;
 }
   
+.contactus {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 248, 222);
+  width: 100vw;
+}
 
+p {
+  text-align: center;
+}
   
   
