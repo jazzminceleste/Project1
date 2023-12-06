@@ -54,6 +54,10 @@ aside {
   background-color: rgb(230, 248, 222);
 }
 
+.asideimages {
+  border-radius: 5%;
+}
+
 #imgmain {
   border-radius: 90%;
   width: 210px;
@@ -100,6 +104,7 @@ nav, footer, a {
   margin: 10px;
   width: 320px;
   height: 400px;
+  border-radius: 2%;
 }
 
 .threemenuphotos:hover {
