@@ -58,6 +58,7 @@ img {
   width: 280px;
   height: 425px;
   opacity: 1;
+  object-fit: cover;
 }
 
 aside {
